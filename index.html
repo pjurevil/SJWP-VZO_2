@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="rtop.videoPlayer.1.0.2.min.js"></script>
+    <script src="jquery.flipping_gallery.min.js"></script>
+    <link rel="stylesheet" href="css/rtop.videoPlayer.1.0.2.min.css">
+    <link rel="stylesheet" href="css/flipping_gallery.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/143530abbd.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+    <title>Glazbenik Jala & Buba</title>
+</head>
+
+<body>
+    <div id="divJalaAlbums" class="ui-dialog">
+        <article id="jalaAlbumi" class="articleAlbums">
+            <a id="showPSD" href="#PSD"><img src="images/psdjavolom_cover.jpg"></a>
+            <span class="albumTitle">Pakt s Đavolom</span>
+            <a><img src="images/stradio_cover.jpg"></a>
+            <span class="albumTitle">Stari Radio</span>
+            <a><img src="images/kruna_cover.jpg"></a>
+            <span class="albumTitle">Kruna</span>
+            <a><img src="images/aiomega_cover.jpg"></a>
+            <span class="albumTitle">Alfa i Omega</span>
+            <a><img src="images/99_cover.jpg"></a>
+            <span class="albumTitle">#99</span>
+            <a><img src="images/futura_cover.png"></a>
+            <span class="albumTitle">Futura</span>
+        </article>
+    </div>
+    <div id="PSD" class="ui-dialog">
+        <article id="PSD_pjesme" class="pjesme colspan">
+            <div class="" id="PSD-1">
+                <div class="gridParent">
+                    <div class="gridChild1">
+                        <div class="music-player" id="da_mi_je" data-video="music/da mi je.mp4" data-type="video/mp4" data-poster="images/psdjavolom_cover.jpg"></div>
+                    </div>
+                    <div class="gridChild2"><img src="images/psdjavolom_cover.jpg" class="songPic"><br><span class="songName">Da mi je</span></div>
+                    <div class="gridChild3"></div>
+                </div>
+            </div>
+            <div class="" id="PSD-2">
+                <div class="gridParent">
+                    <div class="gridChild1">
+                        <div class="music-player" id="twentytwo" data-video="music/22.mp4" data-type="video/mp4" data-poster="images/psdjavolom_cover.jpg"></div>
+                    </div>
+                    <div class="gridChild2"><img src="images/psdjavolom_cover.jpg" class="songPic"><br><span class="songName">22</span></div>
+                    <div class="gridChild3"></div>
+                </div>
+            </div>
+            <div class="" id="PSD-3">
+                <div class="gridParent">
+                    <div class="gridChild1">
+                        <div class="music-player" id="trinidad_tobago" data-video="music/trinidad i tobago.mp4" data-type="video/mp4" data-poster="images/psdjavolom_cover.jpg"></div>
+                    </div>
+                    <div class="gridChild2"><img src="images/psdjavolom_cover.jpg" class="songPic"><br><span class="songName">Trinidad i Tabago</span></div>
+                    <div class="gridChild3"></div>
+                </div>
+            </div>
+            <div class="" id="PSD-4">
+                <div class="gridParent">
+                    <div class="gridChild1">
+                        <div class="music-player" id="kao_ja" data-video="music/kao ja.mp4" data-type="video/mp4" data-poster="images/psdjavolom_cover.jpg"></div>
+                    </div>
+                    <div class="gridChild2"><img src="images/psdjavolom_cover.jpg" class="songPic"><br><span class="songName">Kao ja</span></div>
+                    <div class="gridChild3"></div>
+                </div>
+            </div>
+            <div class="" id="PSD-5">
+                <div class="gridParent">
+                    <div class="gridChild1">
+                        <div class="music-player" id="geto_majke" data-video="music/geto majke.mp4" data-type="video/mp4" data-poster="images/psdjavolom_cover.jpg"></div>
+                    </div>
+                    <div class="gridChild2"><img src="images/psdjavolom_cover.jpg" class="songPic"><br><span class="songName">Geto Majke</span></div>
+                    <div class="gridChild3"></div>
+                </div>
+            </div>
+            <div class="" id="PSD-6">
+                <div class="gridParent">
+                    <div class="gridChild1">
+                        <div class="music-player" id="led" data-video="music/led.mp4" data-type="video/mp4" data-poster="images/psdjavolom_cover.jpg"></div>
+                    </div>
+                    <div class="gridChild2"><img src="images/psdjavolom_cover.jpg" class="songPic"><br><span class="songName">Led</span></div>
+                    <div class="gridChild3"></div>
+                </div>
+            </div>
+            <div class="" id="PSD-7">
+                <div class="gridParent">
+                    <div class="gridChild1">
+                        <div class="music-player" id="borba" data-video="music/borba.mp4" data-type="video/mp4" data-poster="images/psdjavolom_cover.jpg"></div>
+                    </div>
+                    <div class="gridChild2"><img src="images/psdjavolom_cover.jpg" class="songPic"><br><span class="songName">Borba</span></div>
+                    <div class="gridChild3"></div>
+                </div>
+            </div>
+            <div class="" id="PSD-8">
+                <div class="gridParent">
+                    <div class="gridChild1">
+                        <div class="music-player" id="plesi" data-video="music/plesi.mp4" data-type="video/mp4" data-poster="images/psdjavolom_cover.jpg"></div>
+                    </div>
+                    <div class="gridChild2"><img src="images/psdjavolom_cover.jpg" class="songPic"><br><span class="songName">Pleši</span></div>
+                    <div class="gridChild3"></div>
+                </div>
+            </div>
+            <div class="" id="PSD-9">
+                <div class="gridParent">
+                    <div class="gridChild1">
+                        <div class="music-player" id="molotovljev_koktel" data-video="music/molotovljev koktel.mp4" data-type="video/mp4" data-poster="images/psdjavolom_cover.jpg"></div>
+                    </div>
+                    <div class="gridChild2"><img src="images/psdjavolom_cover.jpg" class="songPic"><br><span class="songName">Molotovljevk koktel</span></div>
+                    <div class="gridChild3"></div>
+                </div>
+            </div>
+            <div class="" id="PSD-10">
+                <div class="gridParent">
+                    <div class="gridChild1">
+                        <div class="music-player" id="boing" data-video="music/boing.mp4" data-type="video/mp4" data-poster="images/psdjavolom_cover.jpg"></div>
+                    </div>
+                    <div class="gridChild2"><img src="images/psdjavolom_cover.jpg" class="songPic"><br><span class="songName">Boing</span></div>
+                    <div class="gridChild3"></div>
+                </div>
+            </div>
+            <div class="" id="PSD-11">
+                <div class="gridParent">
+                    <div class="gridChild1">
+                        <div class="music-player" id="hladnokrvna_ubica" data-video="music/hladnokrvna ubica.mp4" data-type="video/mp4" data-poster="images/psdjavolom_cover.jpg"></div>
+                    </div>
+                    <div class="gridChild2"><img src="images/psdjavolom_cover.jpg" class="songPic"><br><span class="songName">Hladnokrvna ubica</span></div>
+                    <div class="gridChild3"></div>
+                </div>
+            </div>
+            <div class="" id="PSD-12">
+                <div class="gridParent">
+                    <div class="gridChild1">
+                        <div class="music-player" id="advokat" data-video="music/advokat.mp4" data-type="video/mp4" data-poster="images/psdjavolom_cover.jpg"></div>
+                    </div>
+                    <div class="gridChild2"><img src="images/psdjavolom_cover.jpg" class="songPic"><br><span class="songName">Advokat</span></div>
+                    <div class="gridChild3"></div>
+                </div>
+            </div>
+            <div class="" id="PSD-13">
+                <div class="gridParent">
+                    <div class="gridChild1">
+                        <div class="music-player" id="bez_tebe" data-video="music/bez tebe.mp4" data-type="video/mp4" data-poster="images/psdjavolom_cover.jpg"></div>
+                    </div>
+                    <div class="gridChild2"><img src="images/psdjavolom_cover.jpg" class="songPic"><br><span class="songName">Bez tebe</span></div>
+                    <div class="gridChild3"></div>
+                </div>
+            </div>
+        </article>
+    </div>
+    <div id="divBubaCorelliAlbums" class="ui-dialog">
+        <article id="bubaCorelliAlbumi" class="articleAlbums">
+            <a id="showSASin" href="#SASin"><img src="images/SASin_cover.png"></a>
+            <span class="albumTitle">SA Sin City (EP)</span>
+            <a><img src="images/zulum_cover.jpg"></a>
+            <span class="albumTitle">Zulum</span>
+            <a><img src="images/psdjavolom_cover.jpg"></a>
+            <span class="albumTitle">Pakt s Đavolom</span>
+            <a><img src="images/kruna_cover.jpg"></a>
+            <span class="albumTitle">Kruna</span>
+            <a><img src="images/aiomega_cover.jpg"></a>
+            <span class="albumTitle">Alfa i Omega</span>
+        </article>
+    </div>
+    <div id="SASin" class="ui-dialog">
+        <article id="SASinC_pjesme" class="pjesme colspan">
+            <div class="" id="SASin-1">
+                <div class="gridParent">
+                    <div class="gridChild1">
+                        <div class="music-player" id="kim_kardashian" data-video="music/kim kardashian.mp4" data-type="video/mp4" data-poster="images/SASin_cover.png"></div>
+                    </div>
+                    <div class="gridChild2"><img src="images/SASin_cover.png" class="songPic"><br><span class="songName">Kim Kardashian</span></div>
+                    <div class="gridChild3"></div>
+                </div>
+            </div>
+            <div class="" id="SASin-2">
+                <div class="gridParent">
+                    <div class="gridChild1">
+                        <div class="music-player" id="ulice_nas_vole" data-video="music/ulice nas vole.mp4" data-type="video/mp4" data-poster="images/SASin_cover.png"></div>
+                    </div>
+                    <div class="gridChild2"><img src="images/SASin_cover.png" class="songPic"><br><span class="songName">Ulice nas vole</span></div>
+                    <div class="gridChild3"></div>
+                </div>
+            </div>
+            <div class="" id="SASin-3">
+                <div class="gridParent">
+                    <div class="gridChild1">
+                        <div class="music-player" id="plijen" data-video="music/plijen.mp4" data-type="video/mp4" data-poster="images/SASin_cover.png"></div>
+                    </div>
+                    <div class="gridChild2"><img src="images/SASin_cover.png" class="songPic"><br><span class="songName">Plijen</span></div>
+                    <div class="gridChild3"></div>
+                </div>
+            </div>
+            <div class="" id="SASin-4">
+                <div class="gridParent">
+                    <div class="gridChild1">
+                        <div class="music-player" id="gabriela_sabatini" data-video="music/gabriela sabatini.mp4" data-type="video/mp4" data-poster="images/SASin_cover.png"></div>
+                    </div>
+                    <div class="gridChild2"><img src="images/SASin_cover.png" class="songPic"><br><span class="songName">Gabriela Sabatini</span></div>
+                    <div class="gridChild3"></div>
+                </div>
+            </div>
+            <div class="" id="SASin-5">
+                <div class="gridParent">
+                    <div class="gridChild1">
+                        <div class="music-player" id="kalashnikov" data-video="music/kalashnikov.mp4" data-type="video/mp4" data-poster="images/SASin_cover.png"></div>
+                    </div>
+                    <div class="gridChild2"><img src="images/SASin_cover.png" class="songPic"><br><span class="songName">Kalashnikov</span></div>
+                    <div class="gridChild3"></div>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <header>
+        <h1 id="hoverOverHeader">Jala Brat & Buba Corelli</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="#Jala">Jala Brat</a>
+            </li>
+            <li>
+                <a href="#Buba">Buba Corelli</a>
+            </li>
+            <li>
+                <a href="#Galerija">Galerija</a>
+            </li>
+            <li>
+                <a href="#Albumi">Albumi</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <article id="Jala">
+            <div class="mhw8 right wiki">
+                <p>
+                    Jasmin Fazlić (rođen 16. listopada 1986), poznatiji kao Jala Brat je bosanskohercegovački reper, kantautor i producent. Širu popularnost je stekao učešćem na Eurosongu 2016. godine sa pjesmom Ljubav je, koju je koautorski napisao sa Almirom Ajanovićem.
+                    Do sada je objavio nekoliko studijskih albuma i poznat je po uspješnoj saradnji sa reperom Bubom Corellijem, te pjevačicom Mayom Berović. Jala Brat je od početka svoje karijere njegovao rep muziku, te je često radio na kombinaciji
+                    različitih muzičkih stilova. Uz kvalitetan rep-vokalni izražaj i liriku, njegova muzika sa početka karijere spadala je u nekomercijalni rep i hip hop, da bi s vremenom prešla u komercijalni electro, pop, trap i folk, sa primjesama
+                    dancehall i reggeaton ritmova. Danas je to hibridni žanr, koji mediji u Hrvatskoj nazivaju trap folkom ili cajkama. Tekstovi su varirali od geto-socijalnih, do seksualno eksplicitnih, koji promoviraju odnos sa ženama, izlaske, skupu
+                    odjeću, brendove i klubove.<br><br> Neke od njegovih poznatijih pjesama, sa starih albuma, su: Boing, Hladnokrvni Ubica, Trinidad & Tabago, Geto majke, Advokat i Borba.<br> Neke od njegovih poznatijih pjesama, sa
+                    novijih albuma, su: 99, Gasira, Patek, O.D.D.D, Monika, Klinka, Noc, Pilula...
+                </p>
+            </div>
+            <div class="mhw8 left info dfjcc">
+                <div class="iHeader">
+                    Jala Brat
+                </div>
+                <img src="images/jala.jpg">
+                <div class="iHeader">Osnovne informacije</div>
+                <div class="dstat">
+                    <span class="fLeft">Porijeklo:</span>
+                    <span class="fRight">BiH</span><br>
+                    <hr>
+                    <span class="fLeft">Žanrovi:</span>
+                    <span class="fRight">hip hop, trap, folk, rep</span><br>
+                    <hr>
+                    <span class="fLeft">Zanimanje:</span>
+                    <span class="fRight">reper, tekstopisac, producent</span><br>
+                    <hr>
+                    <span class="fLeft">Karijera:</span>
+                    <span class="fRight">2011-sada</span><br>
+                    <hr>
+                    <span class="fLeft">Izdavačke kuće:</span>
+                    <span class="fRight">Imperia</span><br>
+                    <span class="fRight">Tempo Digital</span><br>
+                    <span class="fRight" style="clear: both;">Dallas Records</span><br>
+                    <span class="fRight" style="clear: both;">RedEye Vision</span><br>
+                    <hr style="clear: both;">
+                    <span class="fLeft" style="clear: both;">Instrument:</span>
+                    <span class="fRight">Klavijatura</span>
+                </div>
+            </div>
+        </article>
+        <hr class="spacer">
+        <article id="Buba">
+            <div class="mhw8 right wiki">
+                <p>
+                    Amar Hodžić (rođen 22. rujna 1989), poznatiji kao Buba Corelli, bosanskohercegovački je reper, pjevač, tekstopisac i muzički producent. Muzikom se počeo baviti još kao tinejdžer. Prvu pjesmu je snimio 2004. sa svojim prijateljem sa kojim je ubrzo potom
+                    osnovao grupu Corelli Duo, odakle potječe i njegovo umjetničko ime. Iz tog perioda izdvajaju se pjesme koje je snimio sa sarajevskim reperom Muamerom Softićem, poznatijim pod imenom Memo – "Čovjek sa dva lica" 2006. i "Tarantula" 2007.
+                    godine. Nakon raspada grupe Corelli Duo, Amar se prestao baviti repanjem, sve do 2009, kada je počeo repovati i nastuptia sa sarajevskom rep-grupom G-Recordz. U tom periodu, Amar je počeo da nastupa pod umjetničkim imenom Buba Corelli
+                    i 2011. objavio je pjesmu "Oh No", koja ga je predstavila široj publici i donijela mu veću popularnost. Uslijedile su pjesme "Dižite upaljače" i "Nevina". Sljedeće godine je gostovao na albumu Troyanac tuzlanskog repera Frenkija, sa
+                    kojim je snimio pjesmu "RMX" (Frenkie i Buba Corelli).
+                    <br><br> Neke od poznatijih pjesama, sa starijih albuma, su: Oh no, Dižite upaljače, Nevina, Kalašnjikov... Neke od poznatijih pjesama, sa novijih albuma, su: Irina Shayk, Gluh i Nijem, Sporije, Balenciaga, Opasno...
+                </p>
+            </div>
+            <div class="mhw8 left info dfjcc">
+                <div class="iHeader">
+                    Buba Corelli
+                </div>
+                <img src="images/jala.jpg">
+                <div class="iHeader">Osnovne informacije</div>
+                <div class="dstat">
+                    <span class="fLeft">Porijeklo:</span>
+                    <span class="fRight">BiH</span><br>
+                    <hr>
+                    <span class="fLeft">Žanrovi:</span>
+                    <span class="fRight">rep, trap</span><br>
+                    <hr>
+                    <span class="fLeft">Zanimanje:</span>
+                    <span class="fRight">reper, tekstopisac, producent</span><br>
+                    <hr>
+                    <span class="fLeft">Karijera:</span>
+                    <span class="fRight">2004-sada</span><br>
+                    <hr>
+                    <span class="fLeft">Izdavačke kuće:</span>
+                    <span class="fRight">Imperia</span><br>
+                    <span class="fRight" style="clear: both;">RedEye Vision</span><br>
+                    <hr style="clear: both;">
+                </div>
+            </div>
+        </article>
+        <hr class="spacer">
+        <article id="Galerija">
+            <div class="gHeader">
+                Galerija
+            </div>
+            <div class="gallery">
+                <a href="#"><img src="images/img-1.jpg"></a>
+                <a href="#"><img src="images/img-2.jpg"></a>
+                <a href="#"><img src="images/img-4.jpg"></a>
+                <a href="#"><img src="images/img-5.jpg"></a>
+                <a href="#"><img src="images/img-6.jpg"></a>
+                <a href="#"><img src="images/img-7.jpg"></a>
+                <a href="#"><img src="images/img-8.jpg"></a>
+                <a href="#"><img src="images/img-9.jpg"></a>
+            </div>
+        </article>
+        <hr class="spacer">
+        <hr class="spacer">
+
+        <article id="Albumi">
+            <div class="aHeader">
+                Albumi
+            </div>
+            <div class="dstat">
+                <a id="showJala" class="fLeft albumButt">
+                    <img src="images/jalaAlbsCov.jpg">
+                </a>
+                <a id="showBuba" class="fRight albumButt">
+                    <img src="images/bubaAlbsCov.jpg">
+                </a>
+            </div>
+        </article>
+    </main>
+    <footer>
+        Copyright&copy; @ Filip Mikulec 2022
+    </footer>
+
+    <script>
+        $(function() {
+            $("#showJala").click(function() {
+                $("#divJalaAlbums").dialog({
+                    title: "Albumi Jala Brata",
+                    width: 900,
+                    height: 680,
+                    modal: true,
+                    buttons: {
+                        Close: function() {
+                            $(this).dialog('close');
+                        }
+                    }
+                });
+            });
+        });
+        $(function() {
+            $("#showPSD").click(function() {
+                $("#PSD").dialog({
+                    title: "Album Pakt s Đavolom",
+                    width: 900,
+                    height: 680,
+                    modal: true,
+                    buttons: {
+                        Back: function() {
+                            $(this).dialog('close');
+                        }
+                    }
+                });
+            });
+        });
+        $(function() {
+            $("#showBuba").click(function() {
+                $("#divBubaCorelliAlbums").dialog({
+                    title: "Albumi Bube Corellia",
+                    width: 900,
+                    height: 680,
+                    modal: true,
+                    buttons: {
+                        Close: function() {
+                            $(this).dialog('close');
+                        }
+                    }
+                });
+            });
+        });
+        $(function() {
+            $("#showSASin").click(function() {
+                $("#SASin").dialog({
+                    title: "Album SA Sin City (EP)",
+                    width: 900,
+                    height: 680,
+                    modal: true,
+                    buttons: {
+                        Back: function() {
+                            $(this).dialog('close');
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+    <script src="videoLoader.js">
+    </script>
+    <script src="jquery-ui.min.js">
+    </script>
+
+</body>
+
+</html>
